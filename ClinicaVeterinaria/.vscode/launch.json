@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Ejecutar VentanaPrincipal",
+      "request": "launch",
+      "mainClass": "vista.VentanaPrincipal",
+      "cwd": "${workspaceFolder}/ClinicaVeterinaria",
+      "classPaths": [
+        "${workspaceFolder}/ClinicaVeterinaria/bin",
+        "${workspaceFolder}/ClinicaVeterinaria/lib/mysql-connector-j-9.3.0.jar"
+      ],
+      "vmArgs": "",
+      "args": ""
+    }
+  ]
+}
